@@ -1,0 +1,54 @@
+.TeacherTwoContainer {
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-family: Sora;
+  height: 100vh;
+}
+
+.TeacherTwoWrapper {
+  /* background-color: lightblue; */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TeacherTwoTextOne {
+  width: 500px;
+  /* background-color: red; */
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: Lexend;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #755365;
+  }
+}
+
+.TeacherTwoTextTwo {
+  width: 590px;
+  /* background-color: purple; */
+  h3 {
+    font-family: Lexend;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #5f2a5d;
+  }
+  p {
+    font-family: Lexend;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #755365;
+  }
+}

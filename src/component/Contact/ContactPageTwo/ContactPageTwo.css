@@ -1,0 +1,102 @@
+.ContactTwoContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ContactTwoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TextArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  button {
+    font-family: Lexend;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 140px;
+    padding: 20px;
+    font-weight: 500px;
+    color: #5f2a5d;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+  }
+  span {
+    font-family: Sora;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+.FillName {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .TextAndEmail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      font-family: Lexend;
+      height: 40px;
+      width: 580px;
+      color: #5f2a5d;
+      font-size: 15px;
+      line-height: normal;
+      font-weight: 400;
+      padding: 0px 10px;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      border: 1px solid #eee;
+    }
+  }
+  button {
+    background-color: #ff885e;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 190px;
+    padding: 20px;
+    font-weight: 600px;
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+}
+
+.Message {
+  input {
+    font-family: Lexend;
+    height: 57px;
+    width: 1200px;
+    color: #5f2a5d;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 400;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+  }
+}

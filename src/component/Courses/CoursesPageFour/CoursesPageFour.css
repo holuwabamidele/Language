@@ -1,0 +1,77 @@
+.CourseFourContainer {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.CourseFourWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  width: 90%;
+}
+
+.courseFourImageArea {
+  width: 500px;
+  img {
+    width: 550px;
+    margin-bottom: 30px;
+  }
+  main {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #5f2a5d;
+  }
+}
+
+.CourseFourTextArea {
+  width: 550px;
+  h3 {
+    font-family: Sora;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5f2a5d;
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #755365;
+  }
+  button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    height: 50px;
+    width: 250px;
+    font-size: 15px;
+    background-color: #ff885e;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.85;
+    transition: all 350ms;
+  }
+  span {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CourseFourWrapper {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 300px;
+    }
+  }
+}

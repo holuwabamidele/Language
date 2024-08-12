@@ -1,0 +1,61 @@
+.AboutThreeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.AboutThreeWrapper {
+  width: 95%;
+  border-radius: 20px;
+  background-color: #f9eee1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+}
+
+.AboutThreeCardsHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutThreeCardHold {
+  margin-right: 30px;
+  background-color: white;
+  height: 300px;
+  width: 260px;
+  border-radius: 15px;
+}
+
+.AboutThreeCardContent {
+  padding: 0px 30px;
+  font-family: Sora;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    color: #ff885e;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: -10px;
+  }
+
+  h3 {
+    color: #5f2a5d;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  p {
+    color: #5f2a5d;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+}

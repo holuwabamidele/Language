@@ -1,0 +1,36 @@
+.TeacherOneContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TeacherOneWrapper {
+  width: 95%;
+  border-radius: 20px;
+  background-color: #f9eee1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.TeacherOneText {
+  font-family: Sora;
+  text-align: center;
+  margin: 70px 0px;
+  h1 {
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #5f2a5d;
+    font-weight: 700;
+  }
+}
+
+/* .TeacherOneImageHolder {
+  margin: -50px 0px;
+} */

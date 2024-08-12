@@ -1,0 +1,36 @@
+.AboutFourContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutFourWrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AboutFourImageArea {
+  img {
+    width: 600px;
+  }
+}
+
+.AboutFourTextArea {
+  width: 500px;
+  h1 {
+    font-family: Sora;
+    color: #5f2a5d;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+  }
+  p {
+    font-family: Lexend;
+    color: #a15365;
+    font-size: 16px;
+    line-height: 28px;
+    /* font-weight: 400; */
+  }
+}

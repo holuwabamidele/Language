@@ -1,0 +1,28 @@
+.FooterContainer {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterHolder {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #8d99ae;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #5f2a5d;
+}

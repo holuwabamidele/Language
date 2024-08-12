@@ -1,0 +1,81 @@
+.ContactOneContainer {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-self: center;
+  width: 100%;
+}
+
+.ContactOneWrapper {
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+
+.Contact {
+  border-radius: 30px;
+  background-color: #ff885e;
+  font-family: Sora;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+
+  button {
+    width: 90px;
+    height: 40px;
+    background-color: #5f2a5d;
+    border-radius: 30px;
+    border: none;
+    color: white;
+  }
+  h1 {
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 700;
+    color: white;
+  }
+
+  h2 {
+    margin-top: -20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+}
+
+.ContactOneWrapperTwo {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 100px; */
+
+  .reactIcon {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #5f2a5d;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  .otherInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+  }
+}

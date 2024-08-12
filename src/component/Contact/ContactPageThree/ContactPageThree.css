@@ -1,0 +1,52 @@
+.ContactThreeContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ContactThreeWrapper {
+  height: 80vh;
+  border-radius: 30px;
+  background-color: #5f2a5d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+
+  h2 {
+    font-family: Sora;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+  h4 {
+    color: white;
+    font-family: Sora;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+  p {
+    color: white;
+    font-family: Sora;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+}
+
+.Address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .Location {
+    margin-right: 20px;
+    .Icon {
+      font-size: 30px;
+      color: #ff885e;
+    }
+  }
+}

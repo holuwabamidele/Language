@@ -1,0 +1,67 @@
+.SecondGeneralContainer {
+  /* background-color: aqua; */
+  width: 100%;
+  margin: 70px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.SecondTextArea {
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.SecondGeneralWrapper {
+  width: 90%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.SecondCountryWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SecondCountryCard {
+  height: 150px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 0px 10px;
+
+  h3 {
+    margin: 10px 0px 5px 0px;
+    color: #5f2a5d;
+  }
+  p {
+    margin: 0;
+    color: #5f2a5d;
+  }
+}
+
+.SecondCountryCard:hover {
+  background-color: #f9eee1;
+  transform: scale(1.1);
+  transition: all 350ms;
+}
+
+@media screen and (max-width: 768px) {
+  .SecondcountryWrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .SecondcountryCard {
+    width: 150px;
+  }
+}

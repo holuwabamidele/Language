@@ -1,0 +1,94 @@
+.HomeFourContainer {
+  max-width: 1536px;
+  /* background-color: aquamarine; */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.HomeFourWrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ImageHolder {
+  img {
+    max-width: 550px;
+  }
+}
+
+.HomeFourText {
+  max-width: 500px;
+  h2 {
+    font-family: Sora;
+    color: #5f2a5d;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #755365;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    height: 50px;
+    width: 190px;
+    font-size: 15px;
+    background-color: #ff885e;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.85;
+    transition: all 350ms;
+  }
+  span {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1176px) {
+  .HomeFourWrapper {
+    justify-content: center;
+  }
+
+  .ImageHolder {
+    margin-bottom: 40px;
+    img {
+      width: 550px;
+    }
+  }
+  .HomeFourText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .HomeFourText {
+    width: 100%;
+  }
+
+  .ImageHolder {
+    img {
+      width: 100%;
+    }
+  }
+}
